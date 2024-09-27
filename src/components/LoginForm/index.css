@@ -1,0 +1,81 @@
+/* Write your CSS code here */
+.login-bg-container {
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.form {
+  height: 370px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  border-radius: 5px;
+}
+.input-label-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.input-username,
+.input-password {
+  width: 270px;
+  background-color: #e2e8f0;
+  outline: none;
+  height: 33px;
+  border: none;
+  padding: 5px;
+  margin: 5px 0px;
+  border: 1px solid #d7dfe9;
+}
+
+.website-logo {
+  width: 150px;
+}
+.website-login-img {
+  width: 550px;
+}
+.login-btn {
+  height: 35px;
+  width: 270px;
+  padding: 5px 12px;
+  color: #ffffff;
+  background-color: #0967d2;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.error {
+  color: #ff0b37;
+  font-size: 13px;
+}
+.small-website-logo {
+  width: 150px;
+}
+@media screen and (min-width: 567px) {
+  .small-nav-container {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 567px) {
+  .small-website-logo {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .website-login-img {
+    width: 330px;
+  }
+  .login-bg-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .website-logo {
+    display: none;
+  }
+}

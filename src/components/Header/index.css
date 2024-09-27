@@ -1,0 +1,68 @@
+/* Write your CSS code here */
+.nav-bar-container {
+  display: flex;
+  padding: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+.website-logo {
+  height: 50px;
+  width: 150px;
+}
+.list-items-container {
+  width: 400px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.link-item {
+  text-decoration: none;
+  color: #64748b;
+}
+.logout-btn {
+  padding: 5px 12px;
+  color: #ffffff;
+  background-color: #0967d2;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}
+
+.small-nav-icon {
+  width: 40px;
+}
+
+@media screen and (max-width: 576px) {
+  .small-nav-list-items-container {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: #e6f6ff;
+    padding: 10px;
+    width: 100%;
+  }
+  .small-nav-container {
+    width: 100%;
+  }
+  .large-nav-container {
+    display: none;
+  }
+  .small-nav-website-logo {
+    width: 240px;
+  }
+  .nav-bar-container {
+    padding: 5px;
+  }
+  .logo-logout-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px;
+  }
+}
+
+@media screen and (min-width: 567px) {
+  .small-nav-container {
+    display: none;
+  }
+}
